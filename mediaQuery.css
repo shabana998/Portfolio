@@ -1,0 +1,248 @@
+@media screen and (max-width: 991px) {
+
+    .logo {
+        font-size: 5rem;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .projects-conatiner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+
+        align-items: stretch;
+        /* Ensures equal height */
+
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        /* Maintain distance between sections */
+        height: 100%;
+
+    }
+
+    .education .degree {
+        text-decoration: none;
+    }
+
+    .certificate-details {
+        flex: 1;
+        min-width: 50%;
+        max-height: 80vh;
+        /* Limit height */
+        padding: 1.5rem;
+        /* Reduce padding to save space */
+    }
+
+    .home {
+        height: 100vh;
+        padding: 5rem 5% 0rem;
+    }
+
+    .home {
+        margin-top: 0;
+        /* Remove unnecessary margin */
+        padding-top: 5rem;
+        /* Adjust spacing properly */
+        min-height: 100vh;
+        /* Ensures content takes full viewport */
+    }
+
+    .home-content h3 {
+        font-size: 5rem;
+    }
+
+    .home h1 {
+        font-size: 9rem;
+
+    }
+
+    .home-content p {
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+
+    .social-media a {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .social-media a i {
+        font-size: 4rem;
+    }
+
+    .home .btn {
+        padding: 2rem 4rem;
+        font-size: 2.9rem;
+        margin-top: 1.9rem;
+
+    }
+
+    .contact {
+        min-height: auto;
+    }
+  
+
+    /* Show navbar when active */
+    .navbar .show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .navbar .show a {
+        display: block;
+        color: white;
+        padding: 10px;
+        /* text-align: center; */
+    }
+
+
+}
+
+/* Large Mobile version */
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 55%;
+    }
+
+    .section {
+        padding: 1.5rem 1rem;
+    }
+
+
+    .logo {
+        font-size: 4rem;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 3.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+
+    .home h1 {
+        font-size: 5.8rem;
+
+    }
+
+    .home-content p {
+        font-size: 1.6rem;
+    }
+
+    .social-media a {
+        width: 5rem;
+        height: 5rem;
+
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .social-media a i {
+        font-size: 3rem;
+    }
+
+    .home {
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        padding-top: 0;
+    }
+
+    .projects-box {
+
+        flex: 1;
+        min-width: 50%;
+        max-height: 80vh;
+        padding: 1.5rem;
+
+    }
+
+
+    .projects-conatiner {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        flex-direction: wrap;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        height: 100%;
+        align-items: center;
+
+    }
+
+    .education .degree {
+        font-size: 2rem;
+    }
+
+    .certificate-details {
+        flex: 1;
+        min-width: 50%;
+        max-height: 80vh;
+        padding: 1.5rem;
+    }
+
+    .about-container>div {
+        padding: 0.8rem
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+
+    .skills-grid {
+        gap: 30px;
+    }
+
+    .project-layer h4 {
+        font-size: 6rem;
+    }
+
+    .project-layer p {
+        font-size: 3rem;
+        margin: 1.5rem 2rem 1rem;
+    }
+
+    .project-layer a i {
+        font-size: 5rem;
+
+    }
+
+}
